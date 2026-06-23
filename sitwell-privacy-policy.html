@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SitWell – Privacy Policy & Disclaimer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    :root {
+      --navy-deep:   #080f1c;
+      --navy-base:   #0d1b2e;
+      --navy-card:   #111e33;
+      --navy-border: #1c2f4a;
+      --cyan:        #3ee8cc;
+      --cyan-dim:    #1fa88e;
+      --text-primary:   #e8f0f8;
+      --text-secondary: #7a9ab8;
+      --text-muted:     #4a6580;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--navy-deep);
+      color: var(--text-primary);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--navy-border);
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    .app-wordmark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .app-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--navy-card);
+      border: 1px solid var(--navy-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .app-icon svg { display: block; }
+
+    .app-name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--text-primary);
+    }
+
+    h1 {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .header-meta {
+      font-size: 13px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    /* ── Section cards ── */
+    .section {
+      background: var(--navy-card);
+      border: 1px solid var(--navy-border);
+      border-radius: 14px;
+      padding: 36px 40px;
+      margin-bottom: 28px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--cyan);
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--navy-border);
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--cyan);
+      letter-spacing: 0.03em;
+      margin: 28px 0 8px;
+    }
+
+    h3:first-of-type { margin-top: 4px; }
+
+    p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+
+    /* ── Highlight box ── */
+    .highlight-box {
+      background: rgba(62, 232, 204, 0.06);
+      border: 1px solid rgba(62, 232, 204, 0.2);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0 4px;
+    }
+
+    .highlight-box p {
+      font-size: 14px;
+      color: var(--text-primary);
+      margin: 0;
+    }
+
+    .highlight-box p strong {
+      color: var(--cyan);
+      font-weight: 600;
+    }
+
+    /* ── Disclaimer callout ── */
+    .disclaimer-callout {
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid var(--cyan-dim);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0 4px;
+    }
+
+    .disclaimer-callout p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--navy-border);
+      padding: 36px 24px;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+
+    .footer-logo {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .footer-details {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.9;
+    }
+
+    .footer-details a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    .footer-details a:hover {
+      text-decoration: underline;
+    }
+
+    .dot {
+      margin: 0 6px;
+      opacity: 0.4;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 540px) {
+      .section { padding: 28px 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="app-wordmark">
+      <div class="app-icon">
+        <!-- Minimal seated figure icon matching app brand -->
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="13" cy="6" r="3" fill="#3ee8cc"/>
+          <path d="M13 9 L13 16 L19 16 L19 22" stroke="#3ee8cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M9 13 Q8 13 8 14" stroke="#3ee8cc" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/>
+          <path d="M17 13 Q18 13 18 14" stroke="#3ee8cc" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/>
+        </svg>
+      </div>
+      <span class="app-name">SitWell</span>
+    </div>
+    <h1>Privacy Policy &amp; Disclaimer</h1>
+    <p class="header-meta">EFFECTIVE DATE: JUNE 22, 2025</p>
+  </header>
+
+  <main>
+
+    <!-- ── Privacy Policy ── -->
+    <div class="section">
+      <p class="section-label">Legal</p>
+      <h2>Privacy Policy</h2>
+
+      <h3>Overview</h3>
+      <p>SitWell is a posture-monitoring app that works with a physical hardware sensor pad. This policy explains what data the app handles, where it is stored, and what your rights are. The short version: <strong>your data stays on your device</strong>. We don't collect it, send it anywhere, or share it with anyone.</p>
+
+      <h3>No Account Required</h3>
+      <p>SitWell does not ask you to create an account or provide any personal information such as your name, email address, or date of birth. You can use the app fully without identifying yourself to us in any way.</p>
+
+      <h3>What Data the App Uses</h3>
+      <p>SitWell reads pressure sensor data from the hardware pad over a local Bluetooth connection to calculate your real-time posture score. Your session history and posture trends — such as scores over time and slouch counts — are stored locally on the hardware microcontroller itself. This information never leaves your device, is not uploaded to any server, and is not accessible to us.</p>
+
+      <div class="highlight-box">
+        <p><strong>Your posture data is stored on your hardware pad only.</strong> It is not sent to any server, cloud service, or third party — ever.</p>
+      </div>
+
+      <h3>Permissions We Do Not Use</h3>
+      <p>SitWell does not request access to your camera, microphone, or location at any time. No such permissions are required to use the app.</p>
+
+      <h3>No Third-Party Services</h3>
+      <p>SitWell does not integrate with any third-party analytics platforms, advertising networks, crash-reporting services, or cloud providers. There is no code in the app that transmits your data to any external party.</p>
+
+      <h3>No User-Submitted Content</h3>
+      <p>SitWell does not allow you to upload files, images, or any other content. Nothing you do in the app is transmitted or stored outside your device.</p>
+
+      <h3>How to Delete Your Data</h3>
+      <p>You can permanently erase all stored session history and posture data at any time. Open the app, go to <strong>Settings</strong>, and tap the <strong>Clear Data</strong> button. This action is immediate and cannot be undone.</p>
+
+      <h3>Children's Privacy</h3>
+      <p>SitWell is intended for general audiences and does not knowingly collect any information from anyone, including children. Since the app collects no personal data at all, no special procedures for children are required.</p>
+
+      <h3>Changes to This Policy</h3>
+      <p>If this privacy policy is ever updated, the new version will be made available through the App Store listing or within the app itself. We encourage you to review it periodically. Continued use of the app after any change constitutes acceptance of the updated policy.</p>
+
+      <h3>Contact</h3>
+      <p>If you have any questions about this privacy policy, you can reach the developer at <a href="mailto:danielyue2009@gmail.com" style="color: #3ee8cc; text-decoration: none;">danielyue2009@gmail.com</a>.</p>
+    </div>
+
+    <!-- ── Disclaimer ── -->
+    <div class="section">
+      <p class="section-label">Important Notice</p>
+      <h2>Disclaimer</h2>
+
+      <h3>For Informational Purposes Only</h3>
+      <p>SitWell is a personal wellness tool designed to help you become more aware of your sitting habits. It is not a medical device, and it is not intended to diagnose, treat, cure, or prevent any medical condition, injury, or health problem.</p>
+
+      <h3>Accuracy of Posture Scores</h3>
+      <p>The posture scores and feedback provided by SitWell are estimates based on pressure readings from the sensor pad. They are intended as general guidance only. Sensor readings can be affected by factors such as pad placement, chair type, clothing, body weight distribution, and movement. Results may not reflect your actual posture with clinical precision.</p>
+
+      <div class="disclaimer-callout">
+        <p>If you have a pre-existing back condition, pain, injury, or any health concern related to your posture or musculoskeletal system, please consult a qualified healthcare professional before relying on this app for guidance.</p>
+      </div>
+
+      <h3>No Liability</h3>
+      <p>The developer, Hengyi Yue, is not liable for any injury, discomfort, loss, or damage arising from your use of SitWell or your reliance on the information it provides. Use of this app is entirely at your own risk.</p>
+
+      <h3>Hardware Dependency</h3>
+      <p>SitWell requires a compatible Posture Pad 2 hardware sensor. The app's functionality, accuracy, and performance are dependent on the condition and correct placement of that hardware. The developer makes no guarantee that the app will function correctly with damaged, modified, or incompatible hardware.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">SitWell</div>
+      <div class="footer-details">
+        Developed by Hengyi Yue
+        <span class="dot">·</span>
+        Independent Project
+        <br/>
+        &copy; 2025 Hengyi Yue. All rights reserved.
+        <br/>
+        <a href="mailto:danielyue2009@gmail.com">danielyue2009@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
